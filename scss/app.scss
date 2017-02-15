@@ -1,0 +1,17 @@
+//*{
+//  border: solid 1px red; 
+//}
+
+*{
+  box-sizing: border-box; 
+}
+
+ul {
+  padding-left: 0
+}
+
+li {
+  list-style: none; 
+}
+
+@import 'quiz/index'; 

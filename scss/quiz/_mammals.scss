@@ -1,0 +1,62 @@
+.input-q{
+  height: 190px;
+  position: relative; 
+}
+
+.cheetah{
+  background-image: url(../image/cheetah.jpg);
+  background-size: 59px 64px;
+  background-repeat: no-repeat;
+  background-position: 50% 34%;
+    @media(min-width: 1024px){
+      background-size: 83px 95px; 
+      background-position: 50% 45%;
+    }
+  input{
+    margin: 85px auto;
+    display: inherit;
+    @media(min-width: 1024px){
+        margin: 117px auto; 
+    }
+  }
+}
+
+ .bats{
+  background-image: url(../image/bat.jpg);
+  background-size: 100px 100px; 
+  background-position: 75% 50%; 
+  background-repeat: no-repeat; 
+}
+ .bison{
+  background-image: url(../image/buffalo.jpg);
+  background-size: 100px 100px; 
+  background-position: 75% 50%; 
+  background-repeat: no-repeat; 
+}
+.dolphin{
+  background-image: url(../image/dolphin.jpg);
+  background-size: 59px 64px;
+  background-repeat: no-repeat;
+  background-position: 50% 34%;
+    @media(min-width: 1024px){
+      background-size: 83px 95px; 
+      background-position: 50% 45%;
+    }
+
+  input{
+    margin: 85px auto;
+    display: inherit;
+    @media(min-width: 1024px){
+        margin: 117px auto; 
+    }
+  
+  }
+}
+ .elephant{
+  background-image: url(../image/elephant.jpg);
+  background-size: 100px 100px; 
+  background-position: 75% 50%; 
+  background-repeat: no-repeat; 
+}
+
+
